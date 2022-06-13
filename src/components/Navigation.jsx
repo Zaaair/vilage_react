@@ -1,24 +1,17 @@
-import NavItem from "../modules/NavItem";
-import { Link } from 'react-router-dom';
+
+import { NavLink } from 'react-router-dom';
+import NavItem from '../modules/NavItem';
 
 
 const Navigation = () => {
     return (
         <nav className='navigation'>
-            <Link to={`/profile`} >
-                <NavItem name='Profile' />
-            </Link>
+            <NavItem name='Profile' road='/profile' />
+            <NavItem name='Dialogs' road='/dialogs' />
+            <NavItem name='Massages' road='/massages' />
+            <NavItem name='News' road='/news' />
+            <NavItem name='Music' road='/music' />
 
-            <Link to={`/dialogs`} >
-                <NavItem name='Dialogs' />
-            </Link>
-            <Link to={`/massages`} >
-                <NavItem name='Massages' />
-            </Link>
-            <Link to={`/news`} >
-                <NavItem name='News' />
-            </Link>
-            <NavItem name='Music' />
         </nav>
     )
 }

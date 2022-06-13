@@ -2,4 +2,15 @@
     grid-area: n;
     background-color: aqua;
     margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.navigation a {
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: $hoverColor ;
+    font-size: 30px;
 }

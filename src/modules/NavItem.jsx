@@ -1,10 +1,14 @@
 
+import { NavLink } from 'react-router-dom';
 
-const NavItem = (props)=> {
+
+
+const NavItem = (props) => {
     return(
-        <div className="nav-item">
-            <a href="/"> {props.name}</a>
-        </div>
+        <NavLink to={props.road} activeStyle={{color: 'gold'}}>
+        {props.name}
+    </NavLink>
+
     )
 }
 

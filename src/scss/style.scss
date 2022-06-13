@@ -7,6 +7,7 @@
 // BASE
 
 @import './base/reset';
+@import './base/active-nav';
 
 
 // COMPONENTS
@@ -23,5 +24,4 @@
 @import './modules/about-user';
 @import './modules/search';
 @import './modules/banner';
-@import './modules/nav-item';
 @import './modules/header-logo';
