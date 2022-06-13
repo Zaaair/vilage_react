@@ -1,10 +1,14 @@
+import HeaderLogo from '../modules/HeaderLogo';
 
 
 const Header = () => {
     return (
-        <header className='app-wrapper-header'>
-            <img alt='#' src='https://d1csarkz8obe9u.cloudfront.net/posterpreviews/business-logo-design-template-78655edda18bc1196ab28760f1535baa_screen.jpg?ts=1617645324' />
+        <header className='header'>
+                <div className='header-item'>
+                    <HeaderLogo />
+                </div>
         </header>
+
 
     )
 }

@@ -1,20 +1,24 @@
+import NavItem from "../modules/NavItem";
+import { Link } from 'react-router-dom';
 
 
 const Navigation = () => {
     return (
-        <nav className='app-wrapper-nav'>
-            <div>
-                <a> Profile </a>
-            </div>
-            <div>
-                <a> Massages </a>
-            </div>
-            <div>
-                <a> News </a>
-            </div>
-            <div>
-                <a> Music </a>
-            </div>
+        <nav className='navigation'>
+            <Link to={`/profile`} >
+                <NavItem name='Profile' />
+            </Link>
+
+            <Link to={`/dialogs`} >
+                <NavItem name='Dialogs' />
+            </Link>
+            <Link to={`/massages`} >
+                <NavItem name='Massages' />
+            </Link>
+            <Link to={`/news`} >
+                <NavItem name='News' />
+            </Link>
+            <NavItem name='Music' />
         </nav>
     )
 }

@@ -2,7 +2,7 @@
 
 const UserInfo = (props)=> {
     return(
-        <span className={props.style}>{props.info}:</span>
+        <span className="user-info-small">{props.info}:</span>
     )
 }
 export default UserInfo

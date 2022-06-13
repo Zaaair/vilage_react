@@ -12,7 +12,16 @@
 // COMPONENTS
 
 @import './components/app-wrapper';
+@import './components/header';
+@import './components/main';
+@import './components/navigation';
+@import './components/dialogs';
+
 
 //MODULES
 @import './modules/avatar';
 @import './modules/about-user';
+@import './modules/search';
+@import './modules/banner';
+@import './modules/nav-item';
+@import './modules/header-logo';
