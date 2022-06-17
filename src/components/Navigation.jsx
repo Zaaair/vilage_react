@@ -1,5 +1,4 @@
 
-import { NavLink } from 'react-router-dom';
 import NavItem from '../modules/NavItem';
 
 
@@ -11,7 +10,6 @@ const Navigation = () => {
             <NavItem name='Massages' road='/massages' />
             <NavItem name='News' road='/news' />
             <NavItem name='Music' road='/music' />
-
         </nav>
     )
 }

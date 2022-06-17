@@ -22,7 +22,7 @@ const App = () => {
         <Navigation />
         <div className='app-wrapper-content'>
           <Route path='/profile' exact component={Main} />
-          <Route path='/dialogs' exact component={Dialogs} />
+          <Route path='/dialogs'  component={Dialogs} />
           <Route path='/massages' exact component={Massages} />
           <Route path='/news' exact component={News} />
         </div>

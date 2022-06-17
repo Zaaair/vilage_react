@@ -1,4 +1,5 @@
 import AboutUser from "../modules/AboutUser";
+import MyPosts from "../modules/MyPosts";
 
 
 const Main = () => {
@@ -7,6 +8,7 @@ const Main = () => {
             <div className="main-item">
                 <div className='banner'/>
                 <AboutUser />
+                <MyPosts />
             </div>
         </div>
     )
